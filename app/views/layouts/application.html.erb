@@ -35,7 +35,7 @@
                 
 
                   <li><a href="#">Quote</a></li>
-                      <li><a href="#">Services</a></li>
+                      <li><%= link_to 'Services', static_pages_services_path%></li>
                           <li><a href="#">Contact</a></li>
 
            </ul>
@@ -59,11 +59,13 @@
         </div>
         <div class="large-6 columns">
           <ul class="inline-list right">
-            <li><a href="#">Privacy</a></li>
+            <li><%= link_to 'Privacy Policy', static_pages_privacy_path%></a></li>
             <li><a href="#">Quotes</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><%= link_to 'Services', static_pages_services_path%></a></li>
+          
+            <li><%= link_to 'About Us', static_pages_about_path%></li>
+
+              <li><a href="#">Contact</a></li>
           
           </ul>
         </div>
