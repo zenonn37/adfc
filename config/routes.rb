@@ -3,7 +3,7 @@ AlbanydfcApp::Application.routes.draw do
   get "contacts/index"
   get "contacts/new"
   get "contacts/show"
-  root to: 'static_pages#index'
+  root to: "static_pages#index"
   
   get "static_pages/index"
 
@@ -12,6 +12,9 @@ AlbanydfcApp::Application.routes.draw do
   get "static_pages/privacy"
 
   get "static_pages/services"
+
+  resources :contacts
+  resources :static_pages
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
