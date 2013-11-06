@@ -16,7 +16,7 @@ class ContactsController < ApplicationController
 
   	if @contacts.save
 
-  		redirect_to static_pages url
+  		redirect_to static_pages_url
 
   	else
 
@@ -33,7 +33,7 @@ class ContactsController < ApplicationController
   private
 
   def contact_params
-  	params.require(:contact).permit(:name,:body,:email,:phone,:hours)
+  	params.require(:contact).permit(:name,:body,:email)
   	
   end
 
