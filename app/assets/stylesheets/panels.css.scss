@@ -1,0 +1,7 @@
+@import 'foundation_mixins_only';
+
+
+.subPanel{
+
+	@include panel(lightskyblue,10px);
+}
