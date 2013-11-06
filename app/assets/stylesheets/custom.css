@@ -23,3 +23,30 @@
 	margin-top: 100px;
 
 }
+
+.bdetails{
+	display: none;
+
+}
+
+.kdetails{
+	display: none;
+}
+.bedRoomDetails{
+	display: none;
+}
+.bathRoomDetails{
+	display: none;
+}
+.adetails{
+	display: none;
+}
+
+.mdetails{
+	display: none;
+}
+
+.lists{
+
+	list-style-type: none;
+}
