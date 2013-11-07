@@ -1,13 +1,19 @@
 class Contact < ActiveRecord::Base
-	after_save :send_email
+
+
+	validates :name, presence: true
+	validates :email, presence: true
+	validates :body, presence: true
+
+	#after_save :send_email
 
 
 
-	def send_email
+	#def send_email
 
-		ContactMailer.contact(self).deliver
+		#ContactMailer.contact(self).deliver
 		
-	end
+	#end
 
 
 end
