@@ -11,7 +11,7 @@ class ContactMailer < ActionMailer::Base
     @webMail = Contact.last
     
 
-    mail to: @contacts.email, subject: "Customer"
+    mail to: "chriscrowd@gmailcom", subject: "Customer"
   end
 
 
