@@ -1,4 +1,9 @@
-
+.wide{
+	width: 100%;
+	position: relative;
+	height: 200px;
+	background-color: #efefef;
+}
 
 .wordForm{
    font-size: 18px;

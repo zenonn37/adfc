@@ -13,6 +13,10 @@ AlbanydfcApp::Application.routes.draw do
 
   get "static_pages/services"
 
+  get "static_pages/rates"
+
+
+
   resources :contacts
   resources :static_pages
 
