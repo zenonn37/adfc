@@ -27,7 +27,9 @@
 
        <ul class="title-area">
 
-           <li class="name"><h1 class="logo"><%= link_to 'Albany Dust Free Cleaning', static_pages_url%></h1></li>
+           <li class="name"><h1 class="logo"><%=image_tag 'adfc_tag3.png'%>
+             <p>Friendly &#38; Professional Service</p>
+            <%= link_to 'Albany Dust Free Cleaning', static_pages_url%></h1></li>
          </ul>
        
 
@@ -36,8 +38,10 @@
            <ul class="right">
                 
 
-               
+                 <li><%= link_to 'Home', static_pages_url%></li>
                    <li><%= link_to 'Rates', static_pages_rates_path%></li>
+
+                 
                       <li><%= link_to 'Services', static_pages_services_path%></li>
                           <li><%= link_to 'Contact', contacts_new_path%></li>
 
@@ -66,7 +70,7 @@
         </div>
         <div class="large-6 columns">
           <ul class="inline-list right">
-            <li><%= link_to 'Privacy Policy', static_pages_privacy_path%></li>
+           
             <li><%= link_to 'Rates', static_pages_rates_path%></li>
             <li><%= link_to 'Services', static_pages_services_path%></a></li>
           
