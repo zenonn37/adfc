@@ -1,8 +1,31 @@
+
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.wrapper{
+	min-height: 100%;
+	position: relative;
+}
+
+.content{
+
+	padding: 10px;
+	padding-bottom: 80px;
+}
+
+
 .wide{
 	width: 100%;
-	position: relative;
-	height: 200px;
+	position: absolute;
+	height: 80px;
 	background-color: #efefef;
+	bottom: 0;
+	left: 0;
+	
+	
 }
 
 .wordForm{

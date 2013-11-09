@@ -22,6 +22,7 @@
   </head>
 
   <body class="<%=controller.controller_name%>">
+    <div class="wrapper">
     <nav class="top-bar">
 
        <ul class="title-area">
@@ -46,16 +47,19 @@
     </nav>
 
 
+    <div class="content">
 
     <%= yield %>
+
+    </div>
 
 
      <!-- Footer -->
   <div class="wide">
   <footer class="row">
 
-    <div class="large-12 columns">
-      <hr />
+    <div class="large-12 columns banner">
+    
       <div class="row">
         <div class="large-6 columns">
           <p>&copy; Copyright 2013 Albany Dust Free Cleaning</p>
@@ -75,6 +79,9 @@
       </div>
     </div> 
   </footer>
+  </div>
+
+
   </div>
 
     
