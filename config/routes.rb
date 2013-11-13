@@ -3,6 +3,9 @@ AlbanydfcApp::Application.routes.draw do
   get "contacts/index"
   get "contacts/new"
   get "contacts/show"
+  get "contacts/check"
+
+
   root to: "static_pages#index"
   
   get "static_pages/index"

@@ -1,5 +1,14 @@
 class ContactsController < ApplicationController
+  
+
+
   def index
+  end
+
+
+  def check
+
+    @contacts = Contact.all;
   end
 
 

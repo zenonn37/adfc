@@ -1,0 +1,51 @@
+<div class="row">
+
+
+  <div class-"large-12 columns">
+
+
+  <table class="table">
+     
+
+     <tr>
+
+
+     	   <th>Name</th>
+     	   <th>Email</th>
+     	   <th>Message</th>
+       
+
+     </tr>
+           <%@contacts.each do |contact|%>
+     <tr>
+
+    <td><%=contact.name%></td>
+     <td><%=contact.email%></td>
+      <td><%=contact.body%></td>
+
+
+
+     </tr>
+
+      <%end%>
+
+
+
+
+
+
+
+
+  </table>
+
+
+
+  </div>
+
+
+
+
+
+
+
+</div>
