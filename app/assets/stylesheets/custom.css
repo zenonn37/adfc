@@ -13,7 +13,7 @@ html,body{
 .content{
 
 	padding: 10px;
-	padding-bottom: 220px;
+	padding-bottom: 230px;
 
 	
 }
@@ -22,7 +22,7 @@ html,body{
 .wide{
 	width: 100%;
 	position: absolute;
-	height: 220px;
+	height: 230px;
 	background-color: #B0B2B5;
 	bottom: 0;
 	left: 0;
@@ -122,4 +122,14 @@ color: #000;
 }
 
 
+@media screen and (max-width: 500px){
 
+	.wide{
+		height: 300px;
+	}
+
+	.content{
+		padding-bottom: 300px;
+	}
+
+}
