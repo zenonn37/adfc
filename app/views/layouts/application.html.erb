@@ -12,6 +12,7 @@
   	<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
 
   	<!-- Set the viewport width to device width for mobile -->
+    <meta name="description" content="Albany Dust Free Cleaning Service">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   	<title><%= content_for?(:title) ? yield(:title) : "Albany Dust Free Cleaning" %></title>
@@ -23,13 +24,15 @@
 
   <body class="<%=controller.controller_name%>">
     <div class="wrapper">
-    <nav class="top-bar">
+
+
+     <nav class="top-bar">
 
        <ul class="title-area">
 
            <li class="name"><h1 class="logo"><%=image_tag 'adfc_tag4.png'%>
-             <p>Friendly &#38; Professional Service</p>
-            <%= link_to 'Albany Dust Free Cleaning', static_pages_url%></h1></li>
+            
+         </li>
          </ul>
        
 
@@ -51,6 +54,11 @@
     </nav>
 
 
+
+
+   
+
+
     <div class="content">
 
     <%= yield %>
@@ -66,11 +74,15 @@
     
       <div class="row">
         <div class="large-6 columns">
-          <p>&copy; Copyright 2013 Albany Dust Free Cleaning</p>
+          <p class="content-footer">&copy; Copyright 2013 Albany Dust Free Cleaning</p>
+          <p class="content-footer">Phone: 518-944-4804</p>
+          <p class="content-footer">Email: customerservice@albanydfcleaning.com</p>
         </div>
         <div class="large-6 columns">
-          <ul class="inline-list right">
-           
+          <ul class="inline-list right low-nav">
+
+
+               <li><%= link_to 'Home', static_pages_url%></li>
             <li><%= link_to 'Rates', static_pages_rates_path%></li>
             <li><%= link_to 'Services', static_pages_services_path%></a></li>
           

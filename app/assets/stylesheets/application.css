@@ -12,3 +12,27 @@
  *= require foundation_and_overrides
  *= require_tree .
  */
+
+
+
+
+
+
+@media only screen and (max-width: 786px){
+
+	body{
+		color: pink;
+
+	}
+
+	h4{
+		color: #efefef;
+	}
+
+}
+
+@media only screen and (max-width: 770px ){
+
+	
+
+}
