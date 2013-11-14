@@ -1,5 +1,9 @@
 AlbanydfcApp::Application.routes.draw do
 
+  get "rates/base"
+  get "rates/edit"
+  get "rates/new"
+  get "rates/show"
   get "contacts/index"
   get "contacts/new"
   get "contacts/show"
@@ -22,6 +26,7 @@ AlbanydfcApp::Application.routes.draw do
 
   resources :contacts
   resources :static_pages
+  resources :rates
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
