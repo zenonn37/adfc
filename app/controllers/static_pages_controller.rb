@@ -17,6 +17,8 @@ class StaticPagesController < ApplicationController
  end
 
  def rates
+ 	@rates = Rate.amount
+
  	
  end
 end

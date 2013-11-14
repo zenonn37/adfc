@@ -8,48 +8,12 @@
 
 
 
-   <%=form_for(@rates) do |f|%>
-
-   <div class="field">
-   
-   <%=f.label :title%>
- 
-	<input name="rate[title]" type="text" placeholder="Enter Title"/>
-	</div>
-
-	 <div class="field">
-   
-   <%=f.label :price%>
- 
-	<input name="rate[price]" type="text" placeholder="Enter Price"/>
-	</div>
-
-	 <div class="field">
-   
-   <%=f.label :hour%>
- 
-	<input name="rate[hour]" type="text" placeholder="Enter addtional hour"/>
-	</div>
-
-	 <div class="field">
-   
-   <%=f.label :desp%>
- 
-	<input name="rate[desp]" type="text" placeholder="Enter description"/>
-	</div>
-
-	
-
-       <div class="field">
-
-       	<%= f.button :submit, class: "formButton"%>
-
+  <%=render 'form'%>
 
        </div>
 
-	<%end%>
-
-</div><!--end-->
+	
+<!--end-->
 
 
 	

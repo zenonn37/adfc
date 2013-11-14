@@ -1,6 +1,6 @@
 class RatesController < ApplicationController
 
-	before_action :find_params, only:[:show,:destroy,:edit]
+	before_action :find_params, only:[:show,:destroy,:edit,:update]
 
 
   def base

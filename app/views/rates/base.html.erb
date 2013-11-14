@@ -1,2 +1,30 @@
-<h1>Rates#base</h1>
-<p>Find me in app/views/rates/base.html.erb</p>
+
+
+
+<h3>Rates List</h3>
+
+<table class="table">
+
+   <tr>
+
+<th>Title</th>
+<th>Price</th>
+<th>Addtional Hour Rate</th>
+<th>Description</th>
+   </tr>
+    
+
+    <%@rates.each do |rate|%>
+
+   <tr>
+
+
+<td><%=rate.title%></td>
+<td><%=rate.price%></td>
+<td><%=rate.hour%></td>
+<td><%=rate.desp%></td>
+   </tr>
+
+  <%end%>
+
+</table>
