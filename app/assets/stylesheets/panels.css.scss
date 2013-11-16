@@ -3,5 +3,27 @@
 
 .subPanel{
 
-	@include panel(lightskyblue,10px);
+	@include panel(lightblue,20px);
+}
+
+
+.home-button{
+	@include button(
+
+
+	$bg:#fff,
+    $radius:10px
+
+	);
+}
+
+.contact-button{
+	
+	@include button(
+
+   $bg: #B0B2B5,
+   $radius:10px
+
+
+	);
 }
