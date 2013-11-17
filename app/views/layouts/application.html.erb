@@ -38,17 +38,19 @@
 
          <section class="top-bar-section">
           
-           <ul class="right">
+           <ul class="left">
                 
 
-                 <li><%= link_to 'Home', static_pages_url%></li>
-                   <li><%= link_to 'Rates', static_pages_rates_path%></li>
+                 <li class="header-links"><%= link_to 'Home', static_pages_url%></li>
+                   <li class="header-links"><%= link_to 'Rates', static_pages_rates_path%></li>
 
                  
-                      <li><%= link_to 'Services', static_pages_services_path%></li>
-                          <li><%= link_to 'Contact', contacts_new_path%></li>
+                      <li class="header-links"><%= link_to 'Services', static_pages_services_path%></li>
+                          <li class="header-links"><%= link_to 'Contact', contacts_new_path%></li>
 
            </ul>
+
+           <div class="right white-headers">Phone:(518)944-4804</div>
 
          </section>
     </nav>

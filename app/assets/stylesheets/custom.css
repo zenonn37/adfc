@@ -23,7 +23,7 @@ html,body{
 	width: 100%;
 	position: absolute;
 	height: 230px;
-	background-color: #B0B2B5;
+	background-color: #2d3033;
 	bottom: 0;
 	left: 0;
 
@@ -137,6 +137,22 @@ color: #000;
 .white-headers{
 
 	color: white;
+	margin-right: 29.3em; 
+	font-weight: bold;
+}
+
+.header-links{
+	font-weight: bold;
+}
+
+
+.link-left{
+
+	margin-left: 39em;
+}
+
+.quote-line{
+	color: #FFEFD5;
 }
 
 
