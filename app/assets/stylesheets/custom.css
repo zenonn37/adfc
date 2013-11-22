@@ -5,6 +5,13 @@ html,body{
 	height: 100%;
 }
 
+.promo{
+
+	color: maroon;
+	margin-top: 50px;
+
+}
+
 .wrapper{
 	min-height: 100%;
 	position: relative;
