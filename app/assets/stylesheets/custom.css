@@ -6,6 +6,58 @@ html,body{
 }
 
 
+
+header{
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #34495E;
+	position: relative;
+	height: 75px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 0 3px #aaa;
+}
+
+.header_container{
+
+	width: 1000px;
+	height: 75px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navi{
+	width: 425px;
+	margin-left: 20%;
+    position: relative;
+   padding-top: 30px;
+   float: left;
+
+}
+
+
+.phone{
+	width: 266px;
+	margin-left: 1%;
+    position: relative;
+   padding-top: 30px;
+   float: right;
+
+}
+
+
+.phone_small{
+	display: none;
+}
+
+.phone p{
+	color: white;
+	font-weight: bold;
+}
+
+
+
 .top-bar-section ul{
 
     margin-left:5%;
@@ -39,7 +91,7 @@ html,body{
 	width: 100%;
 	position: absolute;
 	height: 230px;
-	background-color: #2d3033;
+	background-color: #34495E;
 	bottom: 0;
 	left: 0;
 
@@ -61,8 +113,10 @@ html,body{
 
 
 
-.logo{
-	color: white;
+.logos{
+	padding: 10px;
+	width: 250px;
+	position: absolute;
 
 }
 
@@ -147,7 +201,7 @@ color: #000;
 	margin-top: 100px;
 
 	height: 100px;
-	background: lightblue;
+	background: #34495E;
 }
 
 .white-headers{
@@ -172,7 +226,47 @@ color: #000;
 }
 
 
+@media screen and (max-width : 1000px ){
+
+	.navi{
+		display: none;
+	}
+
+	
+
+		.phone_small{
+	float: left;
+		margin-left: 1.5%;
+		
+			margin-left: 55%;
+}
+
+}
+
+
+@media screen and (max-width : 757px ){
+
+	.navi{
+		display: none;
+	}
+
+	.phone{
+		float: left;
+		margin-left: 1.5%;
+		padding-top: 55px;
+
+	}
+
+
+
+
+}
+
+
 @media screen and (max-width: 500px){
+
+
+
 
 	.wide{
 		height: 300px;
@@ -180,6 +274,12 @@ color: #000;
 
 	.content{
 		padding-bottom: 300px;
+	}
+
+
+	.phone{
+		display: none;
+
 	}
 
 }
