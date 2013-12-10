@@ -50,7 +50,7 @@ header{
 	height: 40px;
 	margin-left: 2%;
     position: relative;
-    padding-top: 30px;
+    padding-top: 25px;
     float: left;
 
 }
@@ -68,7 +68,7 @@ header{
 	text-decoration: none;
 	font-weight: bold;
 	color: #fff;
-	font-size:70%;
+	font-size:80%;
 	padding: 0 15px;
 	margin: 5px 0;
 	line-height: 30px; 
@@ -80,6 +80,11 @@ header{
 
 	.menu li:hover > a{
 		color: #b94861;
+		background-color: #efefef;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-ms-border-radius: 5px;
 }
 
 
@@ -90,7 +95,7 @@ header{
 	width: 17.5%;
 	 position: relative;
 	 float: left;
-	  padding-top: 3%;
+	  padding-top: 3.3%;
 	  margin-left: 15%;
 
 }
@@ -101,6 +106,7 @@ header{
 .phone p{
 	color: white;
 	font-weight: bold;
+	font-size: 95%;
 }
 
 
@@ -321,7 +327,7 @@ color: #000;
 	
 	
 	
-	height: 200px;
+	height: 250px;
 	
 	
 }
@@ -337,13 +343,23 @@ color: #000;
 	}
 
 
+	.menu li{
+	display: block;
+	list-style: none;
+	width: 60%;
+	float: left;
+	height: 40px;
+	position: relative;
+}
+
+
 	.menu{
 	display: block;
-	width: 100px;
-	height: 40px;
+	width: 200px;
+	height: 210px;
 	float: left;
 	padding-top:10px; 
-	margin-right: 5%;
+    margin: 40px 0 0 -190px;
 	position: relative;
 }
 	
@@ -361,6 +377,25 @@ color: #000;
 	-moz-transition: color .3s ease;
 	-webkit-transition: color .3s ease;
 	-ms-transition: color .3s ease;
+ }
+
+
+ .phone{
+	width: 17.5%;
+	 position: relative;
+	 float: left;
+	  padding-top: 3.3%;
+	  margin-left: 15%;
+
+}
+
+
+
+
+.phone p{
+	color: white;
+	font-weight: bold;
+	font-size: 95%;
 }
 
 }
@@ -393,6 +428,9 @@ color: #000;
 	.content{
 		padding-bottom: 300px;
 	}
+
+
+
 
 
 
